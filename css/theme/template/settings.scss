@@ -1,0 +1,64 @@
+// Base settings for all themes that can optionally be 
+// overridden by the super-theme
+
+// Include theme-specific fonts
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato/Lato-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"), url("fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Italic";
+  src: local("Lato-Italic"), url("fonts/Lato/Lato-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: local("Lato-Bold"), url("fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Lato-Black";
+  src: local("Lato-Black"), url("fonts/Lato/Lato-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+
+// Background of the presentation
+$backgroundColor: #666b8f;
+
+// Primary/body text
+$mainFont: 'Lato', 'Helvetica', Arial, sans-serif;
+$mainFontSize: 36px;
+$mainColor: #fff;
+
+// Headings
+$headingFont: 'Lato-Bold', Impact, sans-serif;
+$headingColor: #fff;
+$headingLineHeight: 0.9em;
+$headingLetterSpacing: 0.02em;
+$headingTextTransform: uppercase;
+$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
+$heading1TextShadow: $headingTextShadow;
+
+// Links and actions
+$linkColor: #F05B62;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: lighten( $linkColor, 20% );
+$selectionColor: #fff;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+	background: $backgroundColor;
+}
