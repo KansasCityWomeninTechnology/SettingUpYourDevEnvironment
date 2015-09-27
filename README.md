@@ -1,7 +1,7 @@
 Setting up Your Development Environment
 ======================
 
-Developmen is the official Coding & Cocktails Setting up Your Development Environment course. 
+This is the official Coding & Cocktails Setting up Your Development Environment course. 
 
 The course is meant to be taught in a two-hour workshop. One hour for presentation, one hour for work time.  
 
