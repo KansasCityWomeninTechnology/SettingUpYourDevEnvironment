@@ -1,26 +1,21 @@
-Introduction to Web Concepts
+Setting up Your Development Environment
 ======================
 
-This is the official Coding & Cocktails Intro to Web Concepts course. Material is based on curriculum was originally developed by Matt Torbin and Elise Wei for Girl Develop It.
+Developmen is the official Coding & Cocktails Setting up Your Development Environment course. 
 
 The course is meant to be taught in a two-hour workshop. One hour for presentation, one hour for work time.  
 
 ## Suggested course description is below:
 
-*Learn how the Internet works*
+*Learn some of the tools you'll need to begin web development*
 
-*Learn how to build basic html websites*
+*Learn how to configure the tools you need*
 
-*Learn about front-end developer tools and best-practices*
+In this class, we will take a look at helpful tools and settings for web developers.  We will cover useful settings and shortcuts to make your development life more efficient.  If you want to learn how to get comfortable with your tools, this course is for you. Topics include:
 
-In this class, we will walk through the fundamentals of web development in layman terms. While we won't be writing code, we'll take you through various components of the web and how they work together. If you want to learn how to communicate better with your technical team or friends, this course is for you. Topics include:
-
-*   What is the World Wide Web?
-*   Where are web site files generally stored?
-*   What is the difference between a client and a server?
-*   Which programming languages are compiled on a server and which are compiled in a web browser?
-*   What do you need to know before building a web site?
-*   What language should you use and what are the differences?
 *   What tools do you need to develop a web site?
+*   How do I use these tools?
+*   What are some of the cool tips and tricks experienced developers know?
+*   Which tools should I pick with all the options out there?
 
 This class is for people with little to no technical experience.
