@@ -1,3 +1,5 @@
+console.log("BOO!");
+console.log("Welcome #ladydevs!");
 /*!
  * reveal.js 2.1 r37
  * http://lab.hakim.se/reveal-js
