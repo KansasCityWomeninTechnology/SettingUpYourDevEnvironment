@@ -7,7 +7,7 @@
 		<title>Setting Up your Development Environment - Coding & Cocktails KC</title>
 
 		<meta name="description" content="This is the official Coding & Cocktails Setting Up your Development Environment course.">
-		<meta name="author" content="Kansas City Women in Technology, Jennifer Wadella">
+		<meta name="author" content="Kansas City Women in Technology, Jennifer Wadella, Sarah Duitsman">
         <meta name="keywords" content="Kansas City Women in Technology, kcwit, women engineers, learn to code, girls in tech, women in tech, coding and cocktails, learn front-end development">
         <meta property="og:title" content="Setting Up your Development Environment - Coding & Cocktails KC" />
         <meta property="og:type" content="website"/>
@@ -26,75 +26,89 @@
 
 		<!-- For syntax highlighting -->
 		<!-- light editor--><link rel="stylesheet" href="lib/css/light.css">
-		<!-- dark editor<link rel="stylesheet" href="lib/css/dark.css">-->
+		<!-- dark editor <link rel="stylesheet" href="lib/css/dark.css">-->
 
 		<!-- If use the PDF print sheet so students can print slides-->
 
 		<link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
 	<body>
-
 		<div class="reveal">
-
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
                 <section id="coding-and-cocktails">
                     <img src="images/logo-large.png" alt="Coding &amp; Cocktails" />
                 </section>
 				<section id="intro-to-web-concepts">
-					<h3>Setting Up your Development Environment</h3>
+					<h3>Setting up Your Development Environment</h3>
                     <img src="images/logo.png" alt="Coding &amp; Cocktails" />
                     <p>
                         Slides available at:
-                        <a href="http://kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment" target="_blank">kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment</a>
+                        <a class="reveal" href="http://kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment" target="_blank">kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment</a>
                     </p>
 				</section>
                 <section id="topics">
-                    <h2>What we'll cover</h2>
-                    <ul>
-                        <li class="fragment">IDEs
-                            <ul>
-                                <li class="fragment">Sublime</li>
-                                <li class="fragment">Atom</li>
-                                <li class="fragment">Cloud 9</li>
-                                <li class="fragment">Helpful Plugins</li>
-                            </ul>
-                        </li>
-                        <li class="fragment">Github
-                            <ul>
-                                <li class="fragment">Creating an account</li>
-                                <li class="fragment">Cloning a repo</li>
-                                <li class="fragment">Creating your own repo</li>
-                            </ul>
-                        </li>
-                        <li class="fragment">Current front-end development practices
-                            <ul>
-                                <li class="fragment">Single page applications, pre-processors, build tools</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <aside class="notes">
-
-                    </aside>
+                    <section>
+                        <h2>What we'll cover</h2>
+                        <ul>
+                            <li class="fragment">Browsers and In-Browser Development Tools
+                                <ul>
+                                    <li class="fragment">Chrome</li>
+                                    <li class="fragment">Firefox</li>
+                                    <li class="fragment">Safari</li>
+                                    <li class="fragment">Internet Explorer</li>
+                                    <li class="fragment">Edge</li>
+                                </ul>
+                            </li>
+                            <li class="fragment">Integrated Development Environments
+                                <ul>
+                                    <li class="fragment">Sublime</li>
+                                    <li class="fragment">Atom</li>
+                                    <li class="fragment">Cloud 9</li>
+                                    <li class="fragment">Webstorm</li>
+                                    <li class="fragment">Helpful Plugins</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>What we'll cover</h2>
+                        <ul>
+                            <li class="fragment">Command Line</li>
+                            <li class="fragment">Github
+                                <ul>
+                                    <li class="fragment">Creating an account</li>
+                                    <li class="fragment">Cloning a repository (repo)</li>
+                                    <li class="fragment">Creating your own repository (repo)</li>
+                                    <li class="fragment">Forking a repository (repo)</li>
+                                </ul>
+                            </li>
+                            <li class="fragment">2016 Coding &amp; Cocktails curriculum
+                                <ul>
+                                    <li class="fragment">Learning Resources</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
                 </section>
-                 <section id="inspiration">
+                <section id="inspiration">
                     <section>
                         <h2>But First ...</h2>
                         <h4>3 Inspiring Female Developers</h4>
                         <ul>
                             <li class="fragment">Sarah Chipps <a href="https://twitter.com/sarajchipps" target="_blank">@sarajchipps</a></li>
-                            <li class="fragment">Isis Anchalee <a href="https://twitter.com/isisAnchalee" target="_blank">@isisAnchalee</a></li>
-                            <li class="fragment">Lyndsey Scott <a href="https://twitter.com/Lyndsey360" target="_blank">@Lyndsey360</a></li>
+                            <li class="fragment">Erin Summers &amp; Zainab Ghadiyali <a href="https://twitter.com/wogrammer" target="_blank">@wogrammer</a></li>
+                            <li class="fragment">Grace Hopper </li>
                         </ul>
                     </section>
                     <section id="jennifer-dewalt">
                         <h2>Sarah Chipps</h2>
-                        <h4>Founder, Girl Develop It! & Jewelbots</h4>
+                        <h4>Founder, Girl Develop It! &amp; Jewelbots</h4>
                         <a href="https://www.girldevelopit.com/" target="_blank">
                             <img src="images/gdi_logo_square_400x400.png" alt="">
                         </a>
@@ -115,19 +129,292 @@
                             <img src="images/wogrammerlogo.png" alt="">
                         </a>
                         <p>
-                            <a href="http://www.wogrammer.org/" target="_blank">http://www.wogrammer.org//</a>
+                            <a href="http://www.wogrammer.org/" target="_blank">http://www.wogrammer.org/</a>
                         </p>
                     </section>
                     <section id="lyndsey-scott">
-                        <h3>TBD</h3>
-                        <h4>TBD</h4>
-
+                        <h3>Grace Hopper</h3>
+                        <h4>Early Female Computer Scientist</h4>
+                        <a href="https://en.wikipedia.org/wiki/Grace_Hopper" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/220px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg" alt="">
+                        </a>
                     </section>
+                </section>
+
+                <section id="sample-app">
+                    <section>
+                        <h2>Browsers</h2>                        
+                        <ul>
+                            <li class="fragment">Chrome</li>
+                            <li class="fragment">Firefox</li>
+                            <li class="fragment">Safari</li>
+                            <li class="fragment">Internet Explorer</li>
+                            <li class="fragment">Edge</li>
+                            <li class="fragment">Other</li>
+                            <li class="fragment"><a href="http://caniuse.com/" target="_blank">CanIUse</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Browser Statistics</h2>
+                        <img src="images/StatCounter-browser.png" alt="" />
+                        <p class="fragment"><small>Source: <a href="http://gs.statcounter.com/#browser-ww-monthly-201309-201508" target="_blank">StatCounter Global Stats - Browser Market Share</a></small></p>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>In-Browser Development Tools</h2>
+                        <a class="fragment" href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank">Chrome Devtools</a>
+                        <ul>
+                            <li class="fragment">Console
+                                <ul>
+                                    <li class="fragment">How do you get there: cmd/ctrl+shift+i OR Chrome menu > More Tools > Developer Tools</li>
+                                    <li class="fragment">Used to log information, display data and interact with your document</li>
+                                </ul>
+                            </li>
+                            <li class="fragment">Elements
+                                <ul>
+                                    <li class="fragment">How do you get there: right click on your page or element you want to view and choose "Inspect Element"</li>
+                                    <li class="fragment">Used to view elements on your page and their styling and positioning</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>In-Browser Development Tools</h2>
+                        <ul>
+                            <li class="fragment">Move the Tools
+                                <ul>
+                                    <li class="fragment">Use tools in a separate window.</li>
+                                     <li class="fragment">Dock the tools on the bottom or right side of the screen to optimize view.</li>
+                                 </ul>
+                             </li>
+                            <li class="fragment">Responsive Design
+                                <ul>
+                                    <li class="fragment">View how page will look on different devices.</li>
+                                </ul>
+                            </li>
+                        </ul>   
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Integrated Development Environments (IDEs)</h2>
+                        <h3 class="fragment"><a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a></h3>
+                        <ul>
+                            <li class="fragment">Natively supports many programming and markup languages</li>
+                            <li class="fragment">Functionality is extended by plug-ins</li>
+                            <li class="fragment">Fast, Powerful, and Highly Customizable</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Integrated Development Environments (IDEs)</h2>
+                        <h3 class="fragment"><a href="https://atom.io/" target="_blank">Atom</a></h3>
+                        <ul>
+                            <li class="fragment">Free &amp; Open-source - developed by Github</li>
+                            <li class="fragment">Functionality is extended by plug-ins</li>
+                            <li class="fragment">Desktop application built on web technologies (HTML, JavaScript, CSS, and Node.js integration) </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Integrated Development Environments (IDEs)</h2>
+                        <h3 class="fragment"><a href="https://c9.io/" target="_blank">Cloud 9</a></h3>
+                        <ul>
+                            <li class="fragment">Online code editor and development environment</li>
+                            <li class="fragment">Easy Collaboration</li>
+                            <li class="fragment">Easily preview in different browser/OS combinations</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Integrated Development Environments (IDEs)</h2>
+                        <h3 class="fragment"><a href="https://www.jetbrains.com/webstorm/" target="_blank">Webstorm</a></h3>
+                        <ul>
+                            <li class="fragment">Lightweight &amp; powerful IDE</li>
+                            <li class="fragment">Quickly start working on projects.</li>
+                            <li class="fragment">Includes smart coding assistance, code completion, navigation features, on-the-fly error detection.</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2> Plugins </h2>
+                        <h3 class="fragment">What is a plugin?</h3>
+                        <p class="fragment">A plugin is an additional component that will add functionality to an application.</p>
+                        <p class="fragment">Enables further customization of the application.</p>
+                    </section>
+                    <section>
+                        <h3>How do I install plug-ins?</h3>
+                        <p class="fragment">First we need to install <a href="https://packagecontrol.io/installation" target="_blank">Package Control</a>.</p>
+                        <p class="fragment">Package Control will make it easier for us to install and keep packages up to date.</p>
+                        <p class="fragment">Install through Sublime text console: cmd/ctrl + ` (backtick, not apostrophe)</p>
+                        <img src="images/backtick.png" alt="" class="fragment">
+                    </section>
+                    <section>
+                        <h3>Emmet</h3>
+                        <a href="https://github.com/sergeche/emmet-sublime#how-to-install" class="fragment" target="_blank">Link</a>
+                        <p class="fragment">Write HTML and CSS faster.</p>
+                        <p class="fragment">Note: File must be saved with .html extension for emmet to work.</p>
+                        <p class="fragment">Usage: Use css selectors (# for ids and . for classes) and html tags with tab completion.</p>
+                        <p class="fragment">Type "html:5" and press tab to start a new page.</p>
+                        <img class="fragment" src="images/Emmet.JPG" />
+                    </section>
+                    <section>
+                        <h3>Bracket Highlighter</h3>
+                        <a href="http://facelessuser.github.io/BracketHighlighter/" class="fragment" target="_blank">Link</a>
+                        <p class="fragment">Quick visual display to find closing/opening brackets.</p>
+                        <img class="fragment" src="images/bracketHighlighter.JPG" />
+                    </section>
+                    <section>
+                        <h3>ColorPicker</h3>
+                        <a href="http://weslly.github.io/ColorPicker/" class="fragment" target="_blank">Link</a>
+                        <p class="fragment">Pick and change colors easily.</p>
+                        <p class="fragment">Usage: ctrl + shift + c to bring up a visual color picker</p>
+                        <img src="images/colorPicker.JPG" class="fragment" />
+                    </section>
+                    <section>
+                        <h3>SublimeLinter</h3>
+                        <a href="https://github.com/SublimeLinter/SublimeLinter-for-ST2" class="fragment" target="_blank">Link</a>
+                        <p class="fragment">Check code for stylistic or programming errors as you go.</p>
+                        <p class="fragment"><small>Note: For linting Javascript or css on a Windows machine, <a href="" target="_blank">Node.js</a> must be installed.</small></p>
+                    </section>
+                    <section>
+                        <h3>Markdown Editing/Markdown Preview</h3>
+                        <p class="fragment"><a href="https://github.com/SublimeText-Markdown/MarkdownEditing" target="_blank">Editing Link</a></p>
+                        <p class="fragment"><a href="https://github.com/revolunet/sublimetext-markdown-preview" target="_blank">Preview Link</a></p>
+                        <p class="fragment">Syntax highlighting and previewing markdown content you've created.</p>
+                        <p class="fragment">Usage: cmd + shift + p and search for Markdown Preview.  Then choose how to preview.</p>
+                    </section>
+                    <section>
+                        <h3>Make it pretty with themes!</h3>
+                        <p class="fragment">Themes customize coloring</p>
+                        <p class="fragment">Install through Package Control</p>
+                        <ul>
+                            <li class="fragment"><a href="http://buymeasoda.github.io/soda-theme/" target="_blank">Soda Theme</a></li>
+                            <li class="fragment"><a href="https://github.com/zenorocha/dracula-theme#sublime-text" target="_blank">Dracula Theme</a></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Other useful commands:</h2>
+                        <ul>
+                            <li class="fragment"><strong>Reindent</strong> - help align source code for easier viewing</li>
+                            <li class="fragment"><strong>Keyboard shortcuts</strong>
+                                <ul>
+                                     <li class="fragment">Select all: ctrl/cmd + a</li>
+                                     <li class="fragment">Cut: ctrl/cmd + x</li>
+                                     <li class="fragment">Copy: ctrl/cmd + c</li>
+                                     <li class="fragment">Paste: ctrl/cmd + v</li>
+                                     <li class="fragment">Undo: ctrl/cmd + z</li>
+                                     <li class="fragment">Save: ctrl/cmd + s</li>
+                                     <li class="fragment">Chrome Devtools: ctrl/cmd + shift + i</li>
+                                     <li class="fragment">Sublime Command Palette: ctrl/cmd + shift + p</li>
+                                 </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Other useful commands:</h2>
+                        <ul>
+                            <li class="fragment"><strong>Splitting the screen</strong> - view multiple files at one time
+                                <ul>
+                                    <li class="fragment">Multi-column: alt + shift + 1-4</li>
+                                    <li class="fragment">Multi-row: alt + shift + 8 or 9</li>
+                                    <li class="fragment">Grid of 4: alt + shift + 5</li>
+                                </ul>
+                            </li>
+                            <li class="fragment"><strong>Indentations/Tabbing</strong> - easily add and remove tabs on multiple lines at once
+                                <ul>
+                                    <li class="fragment">Remove tabs: select one or more lines and shift + tab</li>
+                                    <li class="fragment">add tabs to multiple lines at once: select lines and tab</li>
+                                </ul>
+                            </li>
+                            <li class="fragment"><strong>Move Lines</strong>
+                                <ul>
+                                    <li class="fragment">Up: ctrl/cmd + shift + up arrow</li>
+                                    <li class="fragment">Down: ctrl/cmd + shift + down arrow</li>
+                                </ul>
+                            </li>
+                            <li class="fragment"><strong>Multi-cursor</strong> - change multiple lines at one time
+                                <ul>
+                                    <li class="fragment">Make selection then ctrl/cmd + d</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="sample-app">
+                    <h2>Git &amp; Github</h2>
+                    <p class="fragment"><a href="https://git-scm.com/" target="_blank">Git Link</a> | Git is the version control system.</p>
+                    <p class="fragment"><a href="https://github.com/" target="_blank">Github Link</a> | Github is a hosting service for git repositories.</p>
+                    <ul>
+                        <li class="fragment">Creating a github account: <a class="fragment" href="https://help.github.com/articles/signing-up-for-a-new-github-account/" target="_blank">Link</a></li>
+                        <li class="fragment">Creating your own github repository: <a class="fragment" href="https://help.github.com/articles/create-a-repo/" target="_blank">Link</a></li>
+                        <li class="fragment">Cloning a github repository: <a class="fragment" href="https://help.github.com/articles/cloning-a-repository/" target="_blank">Link</a></li>
+                        <li class="fragment">Fork a github repository: <a class="fragment" href="https://help.github.com/articles/fork-a-repo/" target="_blank">Link</a></li>
+                    </ul>
+                </section>
+                <section id="sample-app">
+                    <section>
+                        <h2>Command Line</h2>
+                        <ul>
+                            <li class="fragment">Mac</li>
+                            <ul>
+                                <li class="fragment">iTerm: <a href="https://www.iterm2.com/">Link</a></li>
+                                <li class="fragment">oh-my-zsh: <a href="http://ohmyz.sh/">Link</a></li>
+                            </ul>
+                            <li class="fragment">Windows</li>
+                            <ul>
+                                <li class="fragment">ConEmu: <a href="https://conemu.github.io/">Link</a></li>
+                                <li class="fragment">Under Startup > Specified named task dropdown choose {Bash::Git bash}</li>
+                            </ul>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>What is the command line used for?</h2>
+                        <ul>
+                            <li class="fragment">Interaction with Git</li>
+                            <li class="fragment">Navigating the file system</li>
+                            <li class="fragment">Installing/Updating third-party packages like jQuery, Bootstrap, etc</li>
+                            <li class="fragment">Compiling preprocessors like Sass, LESS, etc</li>
+                            <li class="fragment">Use task runners like gulp or grunt</li>
+                            <li class="fragment">Scaffolding new projects</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h3>2016 Coding &amp; Cocktails Curriculum</h3>
+                    <ul>
+                        <li class="fragment">Front-end Development</li>
+                        <li class="fragment">Basic Deployment</li>
+                        <li class="fragment">Intro to Command Line</li>
+                        <li class="fragment">Intro to GitHub &amp; Version Control</li>
+                        <li class="fragment">Intro to CSS compliers</li>
+                        <li class="fragment">jQuery Implementation</li>
+                        <li class="fragment">Intro to NPM, Bower, Yeoman &amp; Gulp</li>
+                        <li class="fragment">Intro to Single Page Applications &amp; Frameworks</li>
+                        <li class="fragment">Intro to front-end Architecture &amp; Modularization</li>
+                        <li class="fragment">Intro to Node</li>
+                        <li class="fragment">Intro to REST</li>
+                        <li class="fragment">Ways to Build your Resume &amp; Experience</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Additional Resources for Learning</h3>
+                    <p class="fragment"><a href="https://github.com/KansasCityWomeninTechnology/LearningResources" target="_blank">Kansas City Women in Technology Github</a></p>
+                    <ul>
+                        <li class="fragment">Glossary</li>
+                        <li class="fragment">Additional Learning Tools</li>
+                    </ul>
+                </section>
+                <section>
+                  <h2>Questions?</h2>
+                  <div style = "font-size:1200%; height:100%; margin-top:40%" class ="blue">?
+                    <div class ="clear"></div></div>
                 </section>
 
 			</div>
   		<footer>
-      </footer>
+        </footer>
 		</div>
 
 
